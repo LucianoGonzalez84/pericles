@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons' 
+
 
 // Estilos
 import "./footer.css";
@@ -25,9 +24,9 @@ function Footer() {
             </div>
             <div className="footer__redes">
                 <div>
-                    <a href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebookF} /></a>
-                    <a href="https://www.instagram.com/"><FontAwesomeIcon icon={faInstagram} /></a>
-                    <a href="https://web.whatsapp.com/"><FontAwesomeIcon icon={faWhatsapp} /></a>
+                    <a href="https://www.facebook.com/"><small>Facebook</small></a>
+                    <a href="https://www.instagram.com/"><small>Instagram</small></a>
+                    <a href="https://web.whatsapp.com/"><small>Whatsapp</small></a>
                 </div>                
             </div> 
         </div>

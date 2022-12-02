@@ -64,20 +64,24 @@
 
 .footer__redes div{
     display: flex;
+    flex-direction: column;
     width: 40%;
     align-items: center;
     justify-content: space-between;
     color: var(--blanco);
-    transition: all 400ms;
 }
 
-.footer__redes div a{
-    transform: scale(1.4);
+small{
+    font-family: var(--principal);
+    font-weight: 100;
+    font-size: 18px;
     color: var(--blanco);
     transition: all 400ms;
+    margin: 50px 0;
+    
 }
 
-.footer__redes div a:hover{
-    transform: scale(1.6);
-    color: var(--dorado);
+small:hover{
+    font-size: 19px;
+    color: var(--dorado)
 }
