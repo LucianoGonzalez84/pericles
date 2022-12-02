@@ -1,0 +1,27 @@
+:root{
+  /* Colores */
+  --negro : #000000;
+  --blanco : #ffffff;
+  --azul : #212935;
+  --dorado: #fba001;
+  --rojo: #ff0000;
+  /* Fuentes */
+  --principal: 'Dosis', sans-serif;
+  --secundaria: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%; 
+}
+
+a:link, a:visited, a:active{
+  text-decoration: none;
+}
+
+

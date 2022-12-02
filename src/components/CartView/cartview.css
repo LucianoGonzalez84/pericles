@@ -1,0 +1,231 @@
+.cartcontainer {
+    width: 90%;
+    height: auto;
+    margin: 120px auto 100px auto;
+    position: relative;
+}
+
+.cart_titulos {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--negro);
+    height: 25px;
+    width: 100%;
+}
+
+h3 {
+    font-family: var(--principal);
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+h3:nth-child(1) {
+    width: 55%;
+}
+h3:nth-child(2) {
+    width: 15%;
+    text-align: center;
+}
+h3:nth-child(3) {
+    width: 15%;
+    text-align: center;
+}
+h3:nth-child(4) {
+    width: 15%;
+    text-align: center;
+}
+
+.cart{
+    border-bottom: 1px solid var(--negro);
+}
+
+.cart_info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 30px 0 30px 0;
+}
+
+p {
+    font-family: var(--principal);
+    font-size: 18px;
+    font-weight:300;
+}
+
+.cart_info div:nth-child(1) {
+    display: flex;
+    width: 55%;
+    height: 50px;
+}
+
+.cart_info div:nth-child(1) img{
+    height: 50px;
+    width: 50px;
+    margin-left: 40px;
+}
+
+.cart_info div:nth-child(1) div {
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+.cart_info div:nth-child(1) div button {
+    border: none;
+    background-color: var(--blanco);
+    cursor: pointer;
+}
+
+.cart_info div:nth-child(1) div .cart_trash {
+    height: 20px;
+    width: 20px;
+    transition: all 400ms;
+}
+
+.cart_info div:nth-child(1) div .cart_trash:hover {
+    color: var(--rojo);
+}
+
+.cart_info div:nth-child(1) p {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.cart_info div:nth-child(2) {
+    width: 15%;
+    height: 50px;    
+}
+
+.cart_info div:nth-child(2) p {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: 0;
+    justify-content: center;
+    margin-top: 11px;
+}
+
+.cart_info div:nth-child(3) {
+    width: 15%;
+    height: 50px;    
+}
+
+.cart_info div:nth-child(3) p {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: 0;
+    justify-content: center;
+    margin-top: 11px;
+}
+
+.cart_info div:nth-child(4) {
+    width: 15%;
+    height: 50px;    
+}
+
+.cart_info div:nth-child(4) p {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: 0;
+    justify-content: center;
+    margin-top: 11px;
+}
+
+.carritovacio{
+    margin: 25px 0 25px 0;
+    width: 100%;
+    
+}
+
+.carritovacio div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;    
+}
+
+.carritovacio div h3{
+    font-weight: 600;
+    width: auto;
+}
+
+.total{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 1px solid var(--negro); 
+    margin-bottom: 40px;
+}
+
+.total div{
+    width: 15%;
+    height: auto;
+    text-align: center;
+
+}
+
+.total div h3{
+    font-family: var(--principal);
+    font-size: 20px;
+    font-weight: 600;
+    width: auto;    
+}
+
+.btns {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto 35px auto;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blanco);
+    border-radius: 0;
+    border: 1px solid var(--negro);
+    width: 190px;
+    height: 28px;
+    cursor: pointer;
+    font-family: var(--secundaria);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 400ms;
+}
+
+.btnnull {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blanco);
+    border-radius: 0;
+    border: 1px solid var(--negro);
+    width: 190px;
+    height: 28px;
+    font-family: var(--secundaria);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 400ms;
+    opacity: .3;
+}
+
+.btn:hover{
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+

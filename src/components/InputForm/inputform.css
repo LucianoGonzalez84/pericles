@@ -1,0 +1,16 @@
+.inputLabel{
+    font-family: var(--principal);
+    font-size: 18px;
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+
+.inputInput {
+    border: none;
+    background-color: rgb(236, 235, 235);
+    margin-bottom: 10px;
+    font-family: var(--principal);
+    font-size: 17px;
+    height: 25px;
+    padding-left: 10px;
+}

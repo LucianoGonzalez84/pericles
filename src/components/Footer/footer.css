@@ -1,0 +1,83 @@
+.footer {
+    display: flex;
+    background-color: var(--negro);
+    width: 100%;
+    height: 150px;
+    position: relative;
+    border-top: 5px solid var(--dorado);
+}
+
+.footer__copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+}
+
+.footer__copyright p{
+    color: var(--blanco);
+    font-family: var(--principal);
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer__copyright span{
+    color: var(--dorado);
+    font-family: var(--principal);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.footer__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.footer__logo img{
+    width: 150px;
+}
+
+.footer__logo div{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+}
+
+.footer__logo div p{
+    color: var(--blanco);
+    font-family: var(--principal);
+    font-size: 14px;
+    width: 100%;
+    text-align: start;
+    margin: 1px;
+}
+
+.footer__redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 25%;
+}
+
+.footer__redes div{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--blanco);
+    transition: all 400ms;
+}
+
+.footer__redes div a{
+    transform: scale(1.4);
+    color: var(--blanco);
+    transition: all 400ms;
+}
+
+.footer__redes div a:hover{
+    transform: scale(1.6);
+    color: var(--dorado);
+}
